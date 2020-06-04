@@ -20,13 +20,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @SuppressWarnings("serial")
-public final class SampleServlet extends HttpServlet {
+public class SampleServlet extends HttpServlet {
 
 	@Override
-	protected void doGet(final HttpServletRequest req,
-			final HttpServletResponse resp) throws IOException,
+	protected void doGet(HttpServletRequest req,
+			HttpServletResponse resp) throws IOException,
 			ServletException {
-		final RequestDispatcher dispatcher = req
+		RequestDispatcher dispatcher = req
 				.getRequestDispatcher("/WEB-INF/jsp/confirmation.jsp");
 
 		dispatcher.forward(req, resp);
