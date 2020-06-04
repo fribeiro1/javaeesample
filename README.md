@@ -8,4 +8,4 @@ This project contains versions of a sample Java EE application for multiple clou
 * [Heroku](https://github.com/fribeiro1/javaeesample/tree/master/javaeesample-heroku)
 * [Jelastic](https://github.com/fribeiro1/javaeesample/tree/master/javaeesample-jelastic)
 * [OpenShift](https://github.com/fribeiro1/javaeesample/tree/master/javaeesample-openshift)
-* [Windows Azure](https://github.com/fribeiro1/javaeesample/tree/master/javaeesample-windowsazure)
+* [Azure](https://github.com/fribeiro1/javaeesample/tree/master/javaeesample-azure)
